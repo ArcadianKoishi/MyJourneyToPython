@@ -34,6 +34,8 @@ decode a[i]
 # a.replace("q","p",1)
 # print(a)                          #qwq
 # print("qwq".replace("q","p",1))   #pwq
+# a="pwp"                           #会更改a对应的内存地址,int,float,complex,tuple同理
+# print(a)
 
 # #split分割字符串,用于分割的字符串会被删掉，返回列表
 # #a.split(可以省略默认为空格的字符串strA,可以省略的分割次数)
