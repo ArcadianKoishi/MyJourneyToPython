@@ -1,9 +1,10 @@
 """集合操作"""
-"""Menu(...)
+"""Menu(...) set
 无序 add update
 remove pop discard
 交集& 并集| 差集-
 对称差^ 子集<= 超集>=
+拆包
 """
 
 # #定义集合
@@ -57,3 +58,14 @@ remove pop discard
 # print(a>=a)
 # print(a<=d)
 # print(a<=a)
+
+# #拆包(类似元组)
+# #方法一：直接拆包(不推荐)
+# set1={1,2,3,4,5,6}
+# a,b,c,d,e,f=set1
+# print(a,b,c,d,e,f)
+# #方法二：先转化为list再拆(推荐，但仍旧无序)
+# #方法三：可变对象拆包
+# set1={1,2,3,4,5,6}
+# a,*b=set1
+# print(a,b)

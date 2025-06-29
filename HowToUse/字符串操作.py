@@ -1,10 +1,11 @@
-"""字符串的常见操作"""
-"""Menu(通过ctrl+f找到具体用法)
+"""字符串操作"""
+"""Menu(通过ctrl+f找到具体用法) str()
 find index count
 len isupper islower
 startswith endswith replace
 split isdigit encode
-decode a[i]
+decode a[i] join
+拆包
 """
 
 # #find返回a中找到的第一个子字符串的起始下标，未找到则返回-1
@@ -53,3 +54,13 @@ decode a[i]
 
 # #a[i]可以访问字符串某下标的字符，但不可更改该字符串
 # #a[i:j:k]进行切片访问
+
+# #join合并字符串(split的逆操作)
+# a=["1","2","3","4","5"]
+# b="12345"
+# c=",".join(a)
+# d=" ".join(b)
+# print(c)
+# print(d)
+
+# #拆包同理元组
