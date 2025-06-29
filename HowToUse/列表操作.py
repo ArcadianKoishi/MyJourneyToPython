@@ -4,6 +4,7 @@ append extend insert
 a[i] 生成器 index
 count len del pop
 remove sort reverse
+拆包
 """
 # #定义列表
 # a=[]              #定义空列表
@@ -54,3 +55,5 @@ remove sort reverse
 
 # #reverse反转
 # a.reverse()
+
+# #拆包同理元组
