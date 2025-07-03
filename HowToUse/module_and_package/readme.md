@@ -1,0 +1,7 @@
+此文件夹用于讲解module(模块)和package(包)
+包的本质也是模块，包也可以套娃
+
+module用于导入模块module1并进行各种操作
+package_test.py用于导入包package并进行各种操作
+__pyache__是解释器自动生成的文件夹，用于快速访问模块，而不是每次都解析一遍源码再调用，会在首次调用和修改后更新
+已经通过.gitignore阻止上传__pyache__

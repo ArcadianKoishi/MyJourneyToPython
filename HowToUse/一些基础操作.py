@@ -10,9 +10,8 @@ type id
 """
 1
 # ctrl+/ 加上注释或者撤销注释
-# print("hello world",end="\n")#end默认为\n
-# print("你","好",sep="@")#sep默认为空格
-
+# print("hello","world",sep=",",end="\t")
+# #end默认为"\n",#sep默认为空格(end和sep先后顺序可换，但都必须放在输出的内容后)
 # if (-2):#非0的数为真
 #     print(True+False)#True默认为1，False默认为0
 # print("a>b") if a>b else print("a<=b") #三目运算符
